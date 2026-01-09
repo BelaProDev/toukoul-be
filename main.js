@@ -41,34 +41,34 @@ const prevSlide = () => {
 
 const nextSlide1 = () => {
     // Get current class 
-    const current = document.querySelector('.current1');
+    const current1 = document.querySelector('.current1');
     // Remove current class
-    current.classList.remove('current1');
+    current1.classList.remove('current1');
     // Check for next slide
-    if(current.nextElementSibling){
+    if(current1.nextElementSibling){
         // Add current to next sibling
-        current.nextElementSibling.classList.add('current1');
+        current1.nextElementSibling.classList.add('current1');
     } else {
         // Add current to start
         slides1[0].classList.add('current1');
     }
-    setTimeout( () => current.classList.remove('current1'));
+    setTimeout( () => current1.classList.remove('current1'));
 }
 
 const prevSlide1 = () => {
     // Get current class 
-    const current = document.querySelector('.current1');
+    const current1 = document.querySelector('.current1');
     // Remove current class
-    current.classList.remove('current1');
+    current1.classList.remove('current1');
     // Check for prev slide
-    if(current.previousElementSibling){
+    if(current1.previousElementSibling){
         // Add current to prev sibling
-        current.previousElementSibling.classList.add('current1');
+        current1.previousElementSibling.classList.add('current1');
     } else {
         // Add current to start
         slides1[slides1.length - 1].classList.add('current1');
     }
-    setTimeout( () => current.classList.remove('current1'));
+    setTimeout( () => current1.classList.remove('current1'));
 }
 
 next.addEventListener('click', e => {
