@@ -1,0 +1,52 @@
+
+:root {
+	/* responsive margins / paddings */
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+
+/* text utility classes */
+
+.sub-text2 {
+	font-size: 18px;
+	font-family: 'Inter';
+	font-weight: 400;
+}
+
+.sub-text {
+	font-size: 23px;
+	font-family: 'Inter';
+	font-weight: 400;
+}
+
+.sub-text-brown {
+	color: #d8c49a;
+	font-size: 23px;
+	font-family: 'League Gothic';
+	font-weight: 400;
+}
+
+.link {
+	text-decoration: underline;
+}
+
+.sub-text-white {
+	color: #fff;
+	font-family: 'Inter';
+	font-weight: 400;
+}
+
+
+
+/* button hover utility classes */
+
+.hover-zoom:hover {
+	scale: 1.05;
+}
