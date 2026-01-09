@@ -50,7 +50,7 @@ const nextSlide1 = () => {
         current.nextElementSibling.classList.add('current1');
     } else {
         // Add current to start
-        slides[0].classList.add('current1');
+        slides1[0].classList.add('current1');
     }
     setTimeout( () => current.classList.remove('current1'));
 }
@@ -66,7 +66,7 @@ const prevSlide1 = () => {
         current.previousElementSibling.classList.add('current1');
     } else {
         // Add current to start
-        slides[slides.length - 1].classList.add('current1');
+        slides1[slides1.length - 1].classList.add('current1');
     }
     setTimeout( () => current.classList.remove('current1'));
 }
