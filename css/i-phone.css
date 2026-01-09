@@ -32,7 +32,7 @@ body {
 }
 
 .row {
-	margin-left: 6px; margin-top: 131px;
+	margin-left: 6px; margin-top: 64px;
 	width: calc(100% - 26px);
 	max-width: 600px;
 	display: flex;
@@ -108,7 +108,7 @@ body {
 }
 
 .le-toukoul {
-	margin-top: 102px;
+	margin-top: 64px;
 	text-align: left;
 	background: url(../assets/le-toukoul.png) center / cover no-repeat;
 	padding: 106px 175px 175px 48px;
@@ -172,7 +172,7 @@ body {
   overflow: hidden;
   height: 42vh;
   width: 100vw;
-  margin-top: 92px;
+  margin-top: 64px;
 }
 
 .slide {
