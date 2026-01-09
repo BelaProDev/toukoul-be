@@ -250,25 +250,25 @@ body {
 
 /* Background Images */
 .slide:first-child {
-  background: url("./assets/toukoul-10-0657d.png") no-repeat center center/cover;
+  background: url("../assets/toukoul-10-0657d.png") no-repeat center center/cover;
 }
 
 .slide:nth-child(2) {
-  background: url("./assets/toukoul_2-6350a91d82.jpg") no-repeat center top/cover;
+  background: url("../assets/toukoul_2-6350a91d82.jpg") no-repeat center top/cover;
 }
 
 .slide:nth-child(3) {
-  background: url("./assets/toukoul_3-f4bc99f8d1.jpg") no-repeat center top/cover;
+  background: url("../assets/toukoul_3-f4bc99f8d1.jpg") no-repeat center top/cover;
 }
 
 .slide:nth-child(4) {
-  background: url("./assets/toukoul_4-82e2d5dcea.jpg") no-repeat center top/cover;
+  background: url("../assets/toukoul_4-82e2d5dcea.jpg") no-repeat center top/cover;
 }
 
 .slide:nth-child(5) {
-  background: url("./assets/toukoul_5-c81de15868.jpg") no-repeat center top/cover;
+  background: url("../assets/toukoul_5-c81de15868.jpg") no-repeat center top/cover;
 }
 
 .slide:nth-child(6) {
-  background: url("./assets/toukoul_6-9c775e701b.jpg") no-repeat center top/cover;
+  background: url("../assets/toukoul_6-9c775e701b.jpg") no-repeat center top/cover;
 }
