@@ -21,7 +21,5 @@ moreLess.forEach((e) => {
         e.style.overflow = 'hidden'
         e.style.height = '8.5em'
         e.after(bm)
-        console.log(e.innerText.length)
-        console.log(bm)
     }
 })
