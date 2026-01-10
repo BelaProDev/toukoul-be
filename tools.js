@@ -4,16 +4,16 @@ let bl = document.createElement('button')
 bm.textContent = "Voir plus"
 bl.textContent = "Voir moins"
 bm.addEventListener('click', function (e) {
-    this.previousElementSibling().style.overflow = ''
-    this.previousElementSibling().style.height = ''
-    this.after(bl)
-    this.remove()
+    e.target.previousElementSibling.style.overflow = ''
+    e.target.previousElementSibling.style.height = ''
+    e.target.after(bl)
+    e.target.remove()
 })
 bl.addEventListener('click', function (e) {
-    this.previousElementSibling().style.overflow = 'hidden'
-    this.previousElementSibling().style.height = '8.5em'
-    this.after(bm)
-    this.remove()
+    e.target.previousElementSibling.style.overflow = 'hidden'
+    e.target.previousElementSibling.style.height = '8.5em'
+    e.target.after(bm)
+    e.target.remove()
 })
 moreLess.forEach((e) => {
     if (e.innerText.length > 100) {
