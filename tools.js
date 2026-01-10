@@ -1,4 +1,4 @@
-let moreLess = document.querySelectorAll('.moreLess')
+let moreLess = Array.from(document.querySelectorAll('.moreLess'))
 let bm = document.createElement('button')
 let bl = document.createElement('button')
 bm.textContent = "Voir plus"
@@ -15,7 +15,7 @@ bl.addEventListener('click', function (e) {
     this.after(bm)
     this.remove()
 })
-moreLess.map((e) => {
+moreLess.forEach((e) => {
     if (e.innerText.count() > 100) {
         e.style.overflow = 'hidden'
         e.style.height = '8.5em'
