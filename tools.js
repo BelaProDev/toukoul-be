@@ -15,10 +15,12 @@ bl.addEventListener('click', function (e) {
     e.target.after(bm)
     e.target.remove()
 })
-moreLess.forEach((e, i) => {
-    if (moreLess[i].innerText.length > 100) {
-        moreLess[i].style.overflow = 'hidden'
-        moreLess[i].style.height = '8.5em'
-        moreLess[i].after(bm)
+moreLess.forEach((e) => {
+    if (e.innerText.length > 100) {
+        e.style.overflow = 'hidden'
+        e.style.height = '8.5em'
+        e.after(bm)
+        console.log(e.innerText.length)
+        console.log(bm)
     }
 })
