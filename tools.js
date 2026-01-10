@@ -16,7 +16,7 @@ bl.addEventListener('click', function (e) {
     this.remove()
 })
 moreLess.forEach((e) => {
-    if (e.innerText.count() > 100) {
+    if (e.innerText.length > 100) {
         e.style.overflow = 'hidden'
         e.style.height = '8.5em'
         e.after(bm)
