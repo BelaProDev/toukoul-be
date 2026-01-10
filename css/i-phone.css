@@ -93,7 +93,7 @@ body {
 }
 
 .subtitle1 {
-	margin: 170px 12px 0 12px;
+	margin: 220px 12px 0 12px;
 	text-align: center;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .subtitle3 {
-	margin-top: 135px;
+	margin-top: 165px;
 	width: 294px;
 	align-self: center;
 	text-align: left;
@@ -128,7 +128,7 @@ body {
 }
 
 .decouverte-musicale {
-	margin-top: 127px;
+	margin-top: 165px;
 	flex-shrink: 0;
 }
 
@@ -147,7 +147,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-shrink: 0;
-	color: #fff;
+	color: #ccc;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -312,10 +312,6 @@ body {
   background: url("../assets/toukoul_12-27ca52095f.jpg") no-repeat;
   background-size: 100% auto;
 }
-
-
-
-
 
 .slider1 {
   position: relative;
